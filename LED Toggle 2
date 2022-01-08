@@ -1,0 +1,8 @@
+from machine import Pin
+import utime
+led1 = Pin(25, Pin.OUT)
+led1.low()
+while True:
+    led1.toggle()
+    print("Toggle")
+    utime.sleep(1)
