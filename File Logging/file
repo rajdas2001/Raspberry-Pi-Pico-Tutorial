@@ -1,0 +1,6 @@
+vals = [1,2,3,4,5]
+
+file = open("array.txt", "w")
+
+file.write(str(vals))
+file.flush
